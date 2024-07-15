@@ -3,10 +3,10 @@
     $hostname   = "localhost"; 
     $username   = "root"; 
     $password   = ""; 
-    $database   = "mv_db"; 
+    $database   = "apk-musik"; 
 
   
-    $conn   = mysqli_connect(
+    $db   = mysqli_connect(
                 $hostname,
                 $username,
                 $password,

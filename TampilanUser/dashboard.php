@@ -1,3 +1,8 @@
+<?php
+    include "../Operasi/koneksi.php";
+    session_start();
+    if(isset($_SESSION['sesi_login'])){
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -42,3 +47,9 @@
     <div></div>
 </body>
 </html>
+<?php
+    }else{
+        echo "<script>alert('Maaf, Anda harus login dulu');</script>";
+        header('location: login.php');
+    }
+?>
