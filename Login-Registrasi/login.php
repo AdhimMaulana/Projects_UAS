@@ -22,13 +22,13 @@
         </div>
         <div class="right">
             <div class="btn-box">
-                <button class="btn btn-1" id="login">Sign In</button>
-                <button class="btn btn-2" id="registrasi">Sign Up</button>
+                <button class="btn btn-1" id="login">Login</button>
+                <button class="btn btn-2" id="registrasi">Registrasi</button>
             </div>
             <!--Login Form Container .-->
             <div class="login-form">
                 <div class="form-title">
-                    <span>Sign In</span>
+                    <span>Login</span>
                 </div>
                 <div class="form-inputs">
                     <form method="post" action="../Operasi/login_operasi.php">
@@ -41,11 +41,11 @@
                         <i class="bx bx-lock-alt icon"></i>
                     </div>
                     <div class="forgot-pass">
-                        <a href="#">Forgot Password?</a>
+                        <a href="#">Lupa Password?</a>
                     </div>
                     <div class="input-box">
                         <button class="input-submit" name="submit">
-                            <span>Sign In</span>
+                            <span>Login</span>
                             <i class="bx bx-right-arrow-alt"></i>
                         </button>
                     </div>
@@ -62,7 +62,7 @@
             <!--Registrasi Form Container .-->
             <div class="register-form">
                 <div class="form-title">
-                    <span>Create Account</span>
+                    <span>Buat Akun</span>
                 </div>
                 <div class="form-inputs">
                     <form method="post" action="../Operasi/registrasi_operasi.php">
@@ -79,11 +79,11 @@
                         <i class="bx bx-lock-alt icon"></i>
                     </div>
                     <div class="forgot-pass">
-                        <a href="#">Forgot Password?</a>
+                        <a href="#">Lupa Password?</a>
                     </div>
                     <div class="input-box">
                         <button class="input-submit" name="submit"> 
-                            <span>Sign Up</span>
+                            <span>Registrasi</span>
                             <i class="bx bx-right-arrow-alt"></i>
                         </button>
                     </div>

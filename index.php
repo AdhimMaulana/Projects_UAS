@@ -1,22 +1,17 @@
-<?php
-    include "../Operasi/koneksi.php";
-    session_start();
-    if(isset($_SESSION['sesi_login'])){
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design</title>
-    <link rel="stylesheet" href="../CSS/dashboard.css">
+    <link rel="stylesheet" href="CSS/dashboard.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
     <div class="container">
         <aside class="sidebar">
             <ul class="menu-section">
-                <li class="menu-item"><a href="index.php?p=info"><i class="bx bx-home"></i><h3>Home</h3></a></li>
+                <li class="menu-item"><a href="index.php?p=musik"><i class="bx bx-home"></i><h3>Home</h3></a></li>
                 <hr>
                 <li class="menu-item"><a href=""><i class="bx bx-library"></i><h3>Playlist</h3></a></li>
                 <hr>
@@ -61,7 +56,9 @@
                     <i class="bx bx-search search-icon"></i>
                 </div>
                 <ul class="auth-menu">
-                    <li><a href="#"><i class="bx bx-user"></i> Log Out</a></li>
+                    <li><a href="#"><i class="bx bx-log-in"></i> Sign in</a></li>
+                    <li><a href="#"><i class="bx bx-user-plus"></i> Sign up</a></li>
+                    <li><a href="#"><i class="bx bx-user"></i> Profile</a></li>
                 </ul>
             </header>
             <div class="filters">
@@ -69,9 +66,9 @@
                 <button><i class="bx bx-music"></i>music</button>
                 <button><i class="bx bx-video"></i>video</button>
             </div>
-            <div class="konten">
-             <?php
-                $halaman_dir='../halaman';
+            <div class="content">
+                <?php
+                $halaman_dir='halaman';
                 if(!empty($_GET['p'])){
                     $halaman = scandir($halaman_dir,0);
                     unset($halaman[0], $halaman[1]);
@@ -82,16 +79,13 @@
                         echo 'Halaman Tidak Ditemukan';
                     }
                 }else{
-                    include($halaman_dir.'/info.php');
+                    include($halaman_dir.'/musik.php');
                 }
                 ?>
             </div>
-           <div class="content">
             <footer class="footer">
                 <p>@StreamTunes</p>
             </footer>
-            </div>
-            </div>
         </main>
     </div>
     <script>
@@ -110,9 +104,3 @@
     </script>
 </body>
 </html>
-<?php
-    }else{
-        echo "<script>alert('Maaf, Anda harus login dulu');</script>";
-        header('location: login.php');
-    }
-?>
