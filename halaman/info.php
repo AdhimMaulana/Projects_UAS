@@ -17,13 +17,13 @@
                     <img src="../img/info2.jpg" alt="">
                 </div>
                 <div class="item">
-                    <img src="../img/info3.jpg" alt="">
+                    <img src="../img/info3(3).jpg" alt="">
                 </div>
                 <div class="item">
-                    <img src="../img/info4.jpg" alt="">
+                    <img src="../img/info4(4).jpg" alt="">
                 </div>
                 <div class="item">
-                    <img src="../img/info5.jpg" alt="">
+                    <img src="../img/info5(5).jpg" alt="">
                 </div>
             </div>
             <div class="buttons">
