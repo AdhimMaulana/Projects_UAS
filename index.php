@@ -79,7 +79,7 @@
                         echo 'Halaman Tidak Ditemukan';
                     }
                 }else{
-                    include($halaman_dir.'/musik.php');
+                    include($halaman_dir.'/info.php');
                 }
                 ?>
             </div>
