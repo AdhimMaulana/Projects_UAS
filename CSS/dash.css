@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     height: 100vh;
     background-color: #000;
@@ -216,7 +216,7 @@ body {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
-    overflow-y : scroll;
+    
     
 }
 
@@ -237,6 +237,5 @@ hr{
     margin: 5px;
 }
 .content{
-    padding-top: 100px;
-    overflow: hidden;
+    
 }

@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slider</title>
-    <link rel="stylesheet" href="../CSS/info.css">
+    <link rel="stylesheet" href="../CSS/infos.css">
 </head>
 <body>
     <div class="conten">
         <div class="slider" style="background-color: white;">
             <div class="list">
                 <div class="item">
-                    <img src="../img/1.jpg" alt="">
+                    <img src="../img/info1.jpg" alt="">
                 </div>
                 <div class="item">
                     <img src="../img/info2.jpg" alt="">
@@ -27,8 +27,8 @@
                 </div>
             </div>
             <div class="buttons">
-                <button id="prev">Prev</button>
-                <button id="next">Next</button>
+                <button id="prev"><</button>
+                <button id="next">></button>
             </div>
             <ul class="dots">
                 <li class="active"></li>
