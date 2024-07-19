@@ -16,11 +16,15 @@
     <div class="container">
         <aside class="sidebar">
             <ul class="menu-section">
-                <li class="menu-item"><a href="index.php?p=info"><i class="bx bx-home"></i><h3>Home</h3></a></li>
+                <li class="menu-item"><a href="dashboard.php?p=info"><i class="bx bx-home"></i><h3>Home</h3></a></li>
                 <hr>
-                <li class="menu-item"><a href=""><i class="bx bx-library"></i><h3>Playlist</h3></a></li>
+                <li class="menu-item"><a href="dashboard.php?p=musik"><i class="bx bx-music"></i><h3>Musik</h3></a></li>
                 <hr>
-                <li class="menu-item"><a href=""><i class="bx bx-music"></i><h3>Musik</h3></a></li>
+                <li class="menu-item"><a href="dashboard.php?p=form"><i class="bx bx-music"></i><h3>Input Musik</h3></a></li>
+                <hr>
+                <li class="menu-item"><a href="dashboard.php?p=table"><i class="bx bx-music"></i><h3>Data Musik</h3></a></li>
+                <hr>
+                <li class="menu-item"><a href="../Operasi/logout.php"><i class="bx bx-user"></i><h3>Sign-Out</h3></a></li>
                 <hr>
             </ul>
             <div class="middle-section">
@@ -61,7 +65,7 @@
                     <i class="bx bx-search search-icon"></i>
                 </div>
                 <ul class="auth-menu">
-                    <li><a href="#"><i class="bx bx-user"></i> Log Out</a></li>
+                    <li><a href="../Operasi/logout.php"><i class="bx bx-user"></i> Log Out</a></li>
                 </ul>
             </header>
             <div class="filters">
